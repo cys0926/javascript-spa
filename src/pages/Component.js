@@ -1,5 +1,6 @@
 export default class {
   HTML;
+  props;
   constructor(props) {
     this.props = props;
     this.setup();

@@ -1,6 +1,6 @@
 import Home from "../pages/Home";
 import Tetris from "../pages/Tetris";
-import Settings from "../pages/Settings";
+import FlappyBird from "../pages/FlappyBird";
 
 export const routes = [
   { path: "/", component: Home, label: "Home", iconSrc: null },
@@ -11,8 +11,8 @@ export const routes = [
     iconSrc: "/tetris.png",
   },
   {
-    path: "/settings",
-    component: Settings,
+    path: "/flappybird",
+    component: FlappyBird,
     label: "Flappy Bird",
     iconSrc: "/flappyBird.png",
   },
